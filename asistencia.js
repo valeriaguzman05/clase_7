@@ -3,7 +3,7 @@ let siAsistio=0;
 let noAsistio=0;
 
 for (let index = 0; index < asistencia.length; index++) {
-    if (asistencia[index] == true) {
+    if (asistencia[index]) {
         siAsistio++
     } else {
         noAsistio++
